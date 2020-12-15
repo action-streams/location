@@ -1,0 +1,39 @@
+{
+  "author": "github@jrtucker.com",
+  "bugs": {
+    "url": "https://github.com/action-streams/location/issues"
+  },
+  "dependencies": {
+    "@action-streams/core": "^0.1.0",
+    "@most/core": "^1.6.1",
+    "@most/scheduler": "^1.3.0",
+    "history": "^5.0.0",
+    "most-subject": "^6.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "homepage": "https://github.com/action-streams/location#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@action-streams/location",
+  "peerDependencies": {
+    "@most/core": "^1.6.1",
+    "@most/types": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/action-streams/location.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.1.0"
+}
